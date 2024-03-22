@@ -1,0 +1,9 @@
+{
+    "name": "Simple Toggle Site",
+    "description": "A basic extension to quickly block or allow a list of websites.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
