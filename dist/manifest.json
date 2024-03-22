@@ -3,7 +3,17 @@
     "description": "A basic extension to quickly block or allow a list of websites.",
     "version": "1.0.0",
     "manifest_version": 3,
+    "permissions": [
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/",
+        "https://*/"
+    ],
     "action": {
         "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["js/background.js"]
     }
 }
